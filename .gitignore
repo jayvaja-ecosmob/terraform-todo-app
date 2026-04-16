@@ -1,0 +1,31 @@
+# Terraform local cache
+.terraform/
+
+# Terraform state files (contain sensitive data)
+*.tfstate
+*.tfstate.*
+
+# Terraform lock info file (ephemeral)
+.terraform.tfstate.lock.info
+
+# Crash log files
+crash.log
+
+# Sensitive variable files
+*.tfvars.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan output files
+*.tfplan
+
+# macOS files
+.DS_Store
