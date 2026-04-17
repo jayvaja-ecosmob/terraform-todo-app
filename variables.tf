@@ -28,7 +28,7 @@ variable "cluster_name" {
 variable "worker_instance_type" {
   description = "EC2 instance type for EKS worker nodes (t3.small is minimum for EKS)"
   type        = string
-  default     = "t3.small"
+  default     = "c7i-flex.large"
 }
 
 variable "your_ip" {
